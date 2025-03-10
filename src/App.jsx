@@ -15,7 +15,7 @@ function App() {
     return (
         <>
 
-        
+
             <Loader/>
             <Navigation  setlatestHover={setlatestHover} latestHover={latestHover} setf1Hover={setf1Hover} f1Hover={f1Hover} />
             <Hero setlatestHover={setlatestHover} setf1Hover={setf1Hover}/>
@@ -23,7 +23,7 @@ function App() {
             <TextAnime setlatestHover={setlatestHover} setf1Hover={setf1Hover}/>
             <NewsSection setlatestHover={setlatestHover} setf1Hover={setf1Hover}/>
             <TeamsSec setlatestHover={setlatestHover} setf1Hover={setf1Hover}/>
-            <Playerranking/>
+            {/* <Playerranking/> */}
             <NewMarkq  setlatestHover={setlatestHover} setf1Hover={setf1Hover}/>
             <Footer setlatestHover={setlatestHover} setf1Hover={setf1Hover}/>
             

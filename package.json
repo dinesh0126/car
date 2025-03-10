@@ -9,8 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
-  }
-  ,
+  },
   "dependencies": {
     "anime": "^0.1.2",
     "animejs": "^3.2.2",
